@@ -1,4 +1,4 @@
-0import type { Cidade } from "../types";
+import type { Cidade } from "../types";
 
 export const cidades: Cidade[] = [
   // DF (id: 7)
