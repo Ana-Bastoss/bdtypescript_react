@@ -14,7 +14,7 @@
 | [Vite](https://vitejs.dev/) | 5+ | Bundler e dev server — `npm run dev` para iniciar |
 | CSS Puro | — | Estilização manual em `App.css`, sem Bootstrap, Tailwind ou Material UI |
 
-### 🖼️ Geradores de imagem de placeholder
+### Geradores de imagem de placeholder
 
 As imagens de capa das notícias mockadas usam serviços de placeholder que geram imagens dinamicamente via URL, sem necessidade de arquivos locais:
 
@@ -34,7 +34,7 @@ Ambos aceitam largura × altura, cor de fundo (hex sem `#`), cor do texto e um p
 
 ---
 
-## ⚙️ Como rodar
+## Como rodar
 
 ```bash
 # 1. Clone o repositório
@@ -119,7 +119,7 @@ portal-noticias/
 
 ---
 
-## 🗺️ Mapa de rotas
+## Mapa de rotas
 
 ### Público
 
@@ -180,7 +180,7 @@ portal-noticias/
 
 ---
 
-## 👤 Perfis e acesso
+## Perfis e acesso
 
 O sistema possui 4 perfis definidos em `src/types/index.ts`. Na tela de login há um bloco **"Acesso Rápido (Desenvolvimento)"** com um botão por perfil que redireciona diretamente para a área correspondente, sem autenticação real.
 
@@ -193,7 +193,7 @@ O sistema possui 4 perfis definidos em `src/types/index.ts`. Na tela de login h�
 
 ---
 
-## 🗃️ Modelo de dados
+## Modelo de dados
 
 Todas as interfaces ficam em `src/types/index.ts`:
 
@@ -225,7 +225,7 @@ export interface Comentario {
 
 ---
 
-## 📌 Observações técnicas
+## Observações técnicas
 
 - **Sem autenticação real** — todas as rotas são públicas nesta fase. O "login" é apenas uma simulação via `useNavigate()`.
 - **Sem backend** — nenhuma chamada de API. Todo estado vem de arrays `.ts` em `src/data/`.
@@ -234,7 +234,3 @@ export interface Comentario {
 - **IDs simulados** — o usuário "logado" em cada área é fixo por constante no topo de cada página (ex: `const AUTOR_ID = 6`). Em produção, viria de um contexto de autenticação.
 
 ---
-
-## 📄 Licença
-
-Projeto acadêmico — uso livre para fins educacionais.
