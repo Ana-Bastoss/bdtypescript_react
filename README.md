@@ -2,6 +2,7 @@
 
 > Portal de notícias com 5 níveis de acesso, construído como exercício prático de React, TypeScript e React Router v7. Todas as rotas são públicas nesta fase — o login é simulado por botões de acesso rápido por perfil.
 
+👩🏽‍💻[Clique aqui para acessar o portal](https://fakenewsreact.netlify.app/)
 ---
 
 ## 🚀 Tecnologias
